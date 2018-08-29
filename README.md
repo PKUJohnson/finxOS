@@ -24,7 +24,9 @@ pip install python_snappy-0.5.1-cp27-cp27m-win_amd64.whl
 
 ### 3. 下载源代码，运行下面的命令：
 
+```shell
 python setup.py install
+```
 
 ## 快速使用
 

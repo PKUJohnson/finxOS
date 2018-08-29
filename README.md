@@ -37,4 +37,9 @@ api = DataApi(addr="tcp://data.quantos.org:8910")
 result, msg = api.login("phone", "token") # 示例账户，用户需要改为自己在www.quantos.org上注册的账户
 print(result)
 print(msg)
+
+df, msg = api.daily('000002.SZ', 20180101, 20180801)
+print(df)
+print(msg)
+
 ```

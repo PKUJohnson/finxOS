@@ -31,7 +31,7 @@ python setup.py install
 ## 快速使用
 
 ```python
-from finxos.data import DataApi  # 这里假设项目目录名为DataApi, 且存放在工作目录下
+from finxos.data import DataApi 
 
 api = DataApi(addr="tcp://data.quantos.org:8910")
 result, msg = api.login("phone", "token") # 示例账户，用户需要改为自己在www.quantos.org上注册的账户
